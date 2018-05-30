@@ -293,3 +293,47 @@ nav > a:hover {
         }
     }
 
+    @media only screen and (max-width:385px) {
+
+        .container {
+            max-width: 385px;
+            height: 140px;
+            position: static;
+        }
+            nav {
+                top:0%;
+                margin-top:16%;
+                left: 33%;
+            }
+            h1 {
+                min-width: 100%;
+                left:0%;
+                right:0%;
+                text-align: center;
+            }
+        .container2 {
+            min-width: 375px;
+            max-width: 375px;
+            margin-top: 6px;
+            margin-left: 1%;
+            margin-right: 1%;
+            }
+            p {
+            min-width:375px;
+            max-width: 375px;
+            }
+    
+            .projects2 > img {
+                height: 250px;
+                width:320px;
+                margin-left: 8%;
+            }
+            .projects2 > h5 {
+                width:320px;
+                margin-left: 8%;
+            }
+            footer {
+                position: static;
+            }
+        }
+    
