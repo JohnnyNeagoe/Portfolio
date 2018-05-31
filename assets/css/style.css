@@ -123,6 +123,7 @@ html, body {
             height: auto;
             clear: both;
             overflow: hidden;
+            padding-bottom:3px;
         }
         textarea {
             width: 875px;
@@ -132,7 +133,13 @@ html, body {
         #button {
             width:80px;
             height:40px;
-            margin-top:10px;
+            margin-top:15px;
+            background-color: #4aaaa5;
+            padding:10px;
+            text-align: center;
+            margin-left:4px;
+            clear: both;
+
         }
 footer { 
     clear: both;
@@ -215,6 +222,15 @@ nav > a:hover {
     h1 {
     left:9.5%;
     }
+    input {
+        width: 700px;
+        box-sizing: border-box;
+    }
+    textarea {
+        width: 700px;
+        height: 250px;
+        resize:none;
+    }
 }
 
 @media only screen and (max-width:768px) {
@@ -247,6 +263,15 @@ nav > a:hover {
         }
         .projects2 > h5 {
             width:260px;
+        }
+        input {
+            width: 650px;
+            box-sizing: border-box;
+        }
+        textarea {
+            width: 650px;
+            height: 250px;
+            resize:none;
         }
     }
 @media only screen and (max-width:640px) {
@@ -291,6 +316,15 @@ nav > a:hover {
         footer {
             position: static;
         }
+        input {
+            width: 525px;
+            box-sizing: border-box;
+        }
+        textarea {
+            width: 525px;
+            height: 250px;
+            resize:none;
+        }
     }
 
     @media only screen and (max-width:385px) {
@@ -313,28 +347,55 @@ nav > a:hover {
                 text-align: center;
             }
         .container2 {
-            min-width: 370px;
-            max-width: 370px;
+            min-width: 375px;
+            max-width: 375px;
             margin-top: 6px;
             margin-left: 1%;
             margin-right: 1%;
             }
             p {
-            min-width:370px;
-            max-width: 370px;
+            min-width:375px;
+            max-width: 375px;
             }
-    
+            .projects{
+                max-width: 320px;
+                padding-left:15px;
+            }
             .projects2 > img {
-                height: 250px;
-                width:320px;
-                margin-left: 8%;
+                height: 230px;
+                width:280px;
             }
             .projects2 > h5 {
-                width:320px;
-                margin-left: 8%;
+                max-width:280px;
             }
             footer {
                 position: static;
             }
+        input {
+            width: 280px;
+            box-sizing: border-box;
         }
+        textarea {
+            width: 280px;
+            height: 250px;
+            resize:none;
+        }
+        #pic {
+            width:280px;
+            height:280px;
+            margin-left:50px;
+            margin-bottom: 10px;
+        }
+    }
     
+@media only screen and (max-width:639px) and (min-width:374px) {
+        .container {
+            position:fixed;
+        }
+        .container2 {
+            margin-top:40%;
+        }
+        footer {
+            position:fixed;
+        }
+    }
