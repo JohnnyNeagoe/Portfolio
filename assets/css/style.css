@@ -139,6 +139,7 @@ html, body {
             text-align: center;
             margin-left:4px;
             clear: both;
+            font-style: bolder;
 
         }
 footer { 
@@ -398,4 +399,18 @@ nav > a:hover {
         footer {
             position:fixed;
         }
+    }
+
+    #cb{
+        border-radius: 20px;
+        width:260px;
+        height: 210px;
+        margin-top:5px;
+    }
+    
+    #swg{
+        border-radius: 20px;
+        width:260px;
+        height: 210px;
+        margin-top:5px;
     }
